@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fffdf5;
+  color: #000;
+  line-height: 1.6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.navbar .brand {
+  font-family: 'DM Serif Display', serif;
+}
+
+.menu button {
+  background-color: #ffbd59;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 60px;
+  align-items: flex-start;
+}
+
+.intro-text h1 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 28px;
+}
+
+.intro-text p {
+  margin-top: 10px;
+  max-width: 400px;
+}
+
+.linkedin {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #ffbd59;
+  padding: 6px 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.profile-card {
+  background-color: #ffbd59;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 200px;
+}
+
+.profile-card .photo {
+  position: relative;
+}
+
+.profile-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.badge {
+  position: absolute;
+  background-color: #427d4a;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.nationality {
+  top: 10px;
+  right: 10px;
+}
+
+.dob {
+  bottom: -15px;
+  left: 10px;
+}
+
+.contact {
+  margin-top: 20px;
+  background-color: #2e2e2e;
+  color: white;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+.contact h2 {
+  font-family: 'Coiny', cursive;
+  font-size: 18px;
+}
+
+.resume-bg {
+  background-color: #3b5a34;
+  padding: 40px 20px;
+  position: relative;
+  color: #fff;
+}
+
+.resume-pattern {
+  font-family: 'DM Serif Display', serif;
+  font-size: 36px;
+  color: transparent;
+  -webkit-text-stroke: 1px #ffbd59;
+  text-align: center;
+  word-spacing: 20px;
+  margin-bottom: 30px;
+}
+
+.summary-box {
+  background-color: #f6a019;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+  color: white;
+}
+
+.summary-box h2 {
+  font-family: 'Coiny', cursive;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
